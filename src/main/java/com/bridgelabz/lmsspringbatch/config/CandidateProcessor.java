@@ -9,7 +9,7 @@ public class CandidateProcessor implements ItemProcessor<Candidate,Candidate> {
 
     @Override
     public Candidate process(Candidate candidate) throws Exception {
-        if(candidate.getDegree().equals("MCA")) {
+        if(candidate.getDegree().equals("BE")) {
             return candidate;
         }else{
             return null;
